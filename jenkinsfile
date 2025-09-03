@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        DOCKER_HUB_REPO = "chakriamajalahub/html-self-page"
+        DOCKER_HUB_REPO = "chakriamajaladocker/html-self-page"
         DOCKER_HUB_CREDENTIALS = "dockerhub-cred-id" // Jenkins lo credentials ID
     }
 
